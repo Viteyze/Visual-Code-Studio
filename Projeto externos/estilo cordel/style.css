@@ -3,10 +3,25 @@
     margin: 0px;
     padding: 0px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:   'Sriracha', cursive;
+    --fonte3:   'Lobster two', sans-serif;
+
+}
+*{
+    font-size: 1em;
+}
+
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
-    
+    font-family: var(--fonte1);
 }
 header{
     background-color: black;
@@ -14,8 +29,10 @@ header{
     text-align: center;
 }
 header > h1{
+    font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 5vw;
 }
 header > p {
     padding-bottom: 50px;
@@ -43,11 +60,13 @@ section.image{
 }
 section.image > p{
 background-color: rgba(0, 0, 0, 0.144);
-width: 400px;
+display: inline-block;
 }
 section {
+    font-family: var(--fonte3);
+    font-family: rubi;
     padding-top: 10hv;
     padding-bottom: 10hv;
-    line-height: 2em;
+    line-height: 2vw;
     padding-left: 30px;
 }
